@@ -11,12 +11,6 @@ int main()
     cout << "What do u waht to use (Enter number): ";
     cin >> day;
 
-    if (day < 1 || day > 7)
-    {
-        cout << "There isn't any day like this";
-        return -1;
-    }
-
     switch (day)
     {
     case 1:
@@ -41,7 +35,7 @@ int main()
         cout << "Sunday:\n8:00 - Chill\n23:00 - Sleep";
         break;
     default:
-        cout << "eh? ur reported";
+        cout << "There isn't any day like this";
         return -1;
         break;
     }
