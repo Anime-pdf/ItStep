@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1963fff5-009c-4f3b-9c9e-f3138a0c6e78}</ProjectGuid>
-    <RootNamespace>hww</RootNamespace>
+    <ProjectGuid>{d1ffbe67-6fd8-4604-9bf5-30f911915c4a}</ProjectGuid>
+    <RootNamespace>aTo20Power</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,9 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator_switch.cpp" />
-    <ClCompile Include="isOdd.cpp" />
-    <ClCompile Include="table.cpp" />
+    <ClCompile Include="aTo20Power.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

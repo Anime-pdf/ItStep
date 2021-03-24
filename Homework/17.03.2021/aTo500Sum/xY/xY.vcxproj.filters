@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="isOdd.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Calculator_switch.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="table.cpp">
+    <ClCompile Include="xY.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
