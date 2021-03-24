@@ -16,9 +16,7 @@ int main()
 	for (int i = 100; i < 1000; i++)
 	{
 		if (isSame(i))
-		{
 			first_count++;
-		}
 		else
 			second_count++;
 	}
