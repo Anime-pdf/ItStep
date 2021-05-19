@@ -2,17 +2,6 @@
 
 using namespace std;
 
-void star(int num)
-{
-    if (num == 0)
-        return;
-    else
-    {
-        cout << "*";
-        return star(num - 1);
-    }
-}
-
 int main()
 {
     // 1
